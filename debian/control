@@ -11,7 +11,7 @@ Package: waydroid-openrc
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, openrc, waydroid
 Conflicts: systemd, systemd-sysv
-Description: Package to add Waydroid configuration for OpenRC.
- This package will add the boot scripts to use Waydroid
+Description: Package to add WayDroid configuration for OpenRC.
+ This package will add the boot scripts to use WayDroid
  with OpenRC in Nitrux.
 
