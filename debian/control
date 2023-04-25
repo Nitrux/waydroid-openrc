@@ -9,7 +9,7 @@ Homepage: https://nxos.org
 
 Package: waydroid-openrc
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, openrc
+Depends: ${shlibs:Depends}, ${misc:Depends}, openrc, waydroid
 Conflicts: systemd, systemd-sysv
 Description: Package to add Waydroid configuration for OpenRC.
  This package will add the boot scripts to use Waydroid
