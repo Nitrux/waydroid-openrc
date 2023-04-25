@@ -1,0 +1,17 @@
+Source: waydroid-openrc
+Section: misc
+Priority: important
+Maintainer: Uri Herrera <uri_herrera@nxos.org>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: https://nxos.org
+
+
+Package: waydroid-openrc
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, openrc
+Conflicts: systemd, systemd-sysv
+Description: Package to add Waydroid configuration for OpenRC.
+ This package will add the boot scripts to use Waydroid
+ with OpenRC in Nitrux.
+
