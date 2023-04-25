@@ -1,3 +1,9 @@
+waydroid-openrc (0.0.2)  nitrux; urgency=medium
+
+  * Update servic script to match function names as OpenRC docs.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Tue, 25 Apr 2023 17:56:00 -0500
+
 waydroid-openrc (0.0.1)  nitrux; urgency=medium
 
   * Create package.

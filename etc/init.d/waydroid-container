@@ -9,8 +9,8 @@ command=/usr/bin/waydroid
 command_args="container start"
 command_args_background="-p $pidfile"
 
-depends() {
-	uses net
+depend() {
+	use net
 }
 
 start_pre() {
