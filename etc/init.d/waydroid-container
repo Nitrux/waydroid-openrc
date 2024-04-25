@@ -10,7 +10,7 @@ command_args="container start"
 command_args_background="-p $pidfile"
 
 depend() {
-	use net
+	use network-manager
 }
 
 start_pre() {
