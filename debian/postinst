@@ -3,10 +3,11 @@
 #   Add cryptsetup service files to runlevel/default
 
 /bin/cp /etc/init.d/waydroid-container /etc/runlevels/default || true
+/bin/cp /etc/init.d/waydroid-container-openrc /etc/runlevels/default || true
 
 #   Add waydroid service files to runlevel/default
 
-rc-update add waydroid-container default
+rc-update add waydroid-container-openrc default
 
 #   Update services list
 
