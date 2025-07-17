@@ -1,8 +1,8 @@
 waydroid-openrc (0.0.4)  nitrux; urgency=medium
 
-  * Rename service script
+  * Refactor and rename service files.
 
- -- Uri Herrera <uri_herrera@nxos.org>  Tue, 04 Jun 2024 04:03:00 -0500
+ -- Uri Herrera <uri_herrera@nxos.org>  Thu, 17 Jul 2025 17:35:00 -0500
 
 waydroid-openrc (0.0.3)  nitrux; urgency=medium
 

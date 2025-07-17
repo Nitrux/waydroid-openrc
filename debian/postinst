@@ -1,9 +1,3 @@
 #!/usr/bin/env bash
 
-# -- Add waydroid service files to runlevel/default.
-
-rc-update add waydroid-openrc default
-
-# -- Update services list.
-
-rc-update -u
+exit 0
