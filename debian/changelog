@@ -1,3 +1,9 @@
+waydroid-openrc (0.0.5)  nitrux; urgency=medium
+
+  * Update service dependency.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Thu, 17 Jul 2025 18:12:00 -0500
+
 waydroid-openrc (0.0.4)  nitrux; urgency=medium
 
   * Refactor and rename service files.

@@ -12,7 +12,7 @@ pidfile="/run/waydroid-container.pid"
 supervisor=supervise-daemon
 
 depend() {
-	need network-manager
+	need net
 }
 
 start_pre() {
