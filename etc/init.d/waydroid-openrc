@@ -1,6 +1,4 @@
 #!/sbin/open-run
-# Copyright (c) 2007-2021 The Gentoo Foundation
-# Distributed under the terms of the GNU General Public License v2
 
 description="Manages the Waydroid container"
 command="/usr/bin/waydroid"
