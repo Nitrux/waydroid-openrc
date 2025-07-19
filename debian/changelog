@@ -1,3 +1,9 @@
+waydroid-openrc (0.0.6)  nitrux; urgency=medium
+
+  * Cleanup service.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Sat, 19 Jul 2025 02:47:00 -0500
+
 waydroid-openrc (0.0.5)  nitrux; urgency=medium
 
   * Update service dependency.

@@ -1,28 +1,25 @@
-#!/sbin/open-run
+#!/sbin/openrc-run
 
 description="Manages the Waydroid container"
-command="/usr/bin/waydroid"
-# The arguments for starting the container, including making a pidfile.
-command_args="container start --pid /run/waydroid-container.pid"
-pidfile="/run/waydroid-container.pid"
-
-# Use OpenRC's best supervisor to monitor the daemon.
-supervisor=supervise-daemon
 
 depend() {
 	need net
 }
 
 start_pre() {
-	# Load required kernel modules if they are not already present.
 	modprobe -q loop
 	modprobe -q fuse
 }
 
-stop_post() {
-	# This function runs *after* the main daemon process is stopped.
-	# It's the correct place for cleanup commands.
-	einfo "Stopping Waydroid session and ensuring container is down"
+start() {
+	ebegin "Starting Waydroid container"
+	/usr/bin/waydroid -w container start
+	eend $?
+}
+
+stop() {
+	ebegin "Stopping Waydroid session and container"
 	/usr/bin/waydroid session stop
 	/usr/bin/waydroid container stop
+	eend 0
 }
